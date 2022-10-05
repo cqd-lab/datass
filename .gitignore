@@ -1,0 +1,25 @@
+# IDE's
+.idea/
+.vscode/
+
+# git
+.git/
+
+# py cache
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*/*/*/*/__pycache__/
+
+# jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*/*/.ipynb_checkpoints/
+*/*/*/.ipynb_checkpoints/
+*/*/*/*/.ipynb_checkpoints/
+
+venv/
+build/
+dist/
+datass.egg*/
