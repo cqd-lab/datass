@@ -1,0 +1,15 @@
+matplotlib
+nltk
+numpy
+pandas
+plotly
+scipy
+seaborn
+#
+sphinx
+recommonmark
+sphinx_rtd_theme
+#
+pytest
+bandit
+flake8
