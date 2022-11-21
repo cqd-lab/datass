@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data frame &mdash; Data Science Shortcuts - DataSS</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Series" href="series.html" />
+    <link rel="prev" title="About" href="about.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> DataSS
+            <img src="../_static/android-chrome-192x192.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">API</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Data frame</a></li>
+<li class="toctree-l1"><a class="reference internal" href="series.html">Series</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text.html">Text</a></li>
+<li class="toctree-l1"><a class="reference internal" href="exceptions.html">Exceptions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">DataSS</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Data frame</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/pages/dataframe.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-datass.dataframe">
+<span id="data-frame"></span><h1>Data frame<a class="headerlink" href="#module-datass.dataframe" title="Permalink to this heading"></a></h1>
+<span class="target" id="module-datass.dataframe.inspection"></span><dl class="py function">
+<dt class="sig sig-object py" id="datass.dataframe.inspection.df_describe">
+<span class="sig-prename descclassname"><span class="pre">datass.dataframe.inspection.</span></span><span class="sig-name descname"><span class="pre">df_describe</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/datass/dataframe/inspection.html#df_describe"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#datass.dataframe.inspection.df_describe" title="Permalink to this definition"></a></dt>
+<dd><p>Generalizes pd.describe() to all columns</p>
+<p>param pandas.DataFrame df: dataframe</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="datass.dataframe.inspection.df_isnull">
+<span class="sig-prename descclassname"><span class="pre">datass.dataframe.inspection.</span></span><span class="sig-name descname"><span class="pre">df_isnull</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/datass/dataframe/inspection.html#df_isnull"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#datass.dataframe.inspection.df_isnull" title="Permalink to this definition"></a></dt>
+<dd><p>Generalizes pd.isnull() to all columns</p>
+<p>param pandas.DataFrame df: dataframe</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="datass.dataframe.inspection.df_total_amazing_inspection">
+<span class="sig-prename descclassname"><span class="pre">datass.dataframe.inspection.</span></span><span class="sig-name descname"><span class="pre">df_total_amazing_inspection</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/datass/dataframe/inspection.html#df_total_amazing_inspection"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#datass.dataframe.inspection.df_total_amazing_inspection" title="Permalink to this definition"></a></dt>
+<dd><p>Runs an amazing inspection</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>df</strong> (<em>pandas.DataFrame</em>) – dataframe</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p></p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p></p>
+</dd>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="datass.dataframe.inspection.df_value_counts">
+<span class="sig-prename descclassname"><span class="pre">datass.dataframe.inspection.</span></span><span class="sig-name descname"><span class="pre">df_value_counts</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">df</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/datass/dataframe/inspection.html#df_value_counts"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#datass.dataframe.inspection.df_value_counts" title="Permalink to this definition"></a></dt>
+<dd><p>Generalizes pd.value_counts() to all columns</p>
+<p>param pandas.DataFrame df: dataframe</p>
+</dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="about.html" class="btn btn-neutral float-left" title="About" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="series.html" class="btn btn-neutral float-right" title="Series" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, Henrique Brandão.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
